@@ -57,9 +57,9 @@ export default function Header() {
           </Link>
         </div>
         <nav className="hidden lg:flex gap-6 text-white">
-          <Link href="/" className="cursor-pointer hover:underline hover:text-[#b72960] font-medium">Home</Link>
-          <Link href="/animation" className="cursor-pointer hover:underline hover:text-[#b72960] font-medium">Animation</Link>
-          <Link href="/#highlights" scroll={false} className="cursor-pointer hover:underline hover:text-[#b72960] font-medium">
+          <Link href="/" className="cursor-pointer hover:underline hover:text-primary-text font-medium">Home</Link>
+          <Link href="/animation" className="cursor-pointer hover:underline hover:text-primary-text font-medium">Animation</Link>
+          <Link href="/#highlights" scroll={false} className="cursor-pointer hover:underline hover:text-primary-text font-medium">
             Highlights
           </Link>
         </nav>

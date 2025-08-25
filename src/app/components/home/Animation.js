@@ -14,7 +14,7 @@ export default function AnimationSection() {
           />
         </div>
         <div className="flex-1 text-center md:text-left order-1 md:order-2">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-[#b72960] mb-6 leading-tight">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-primary-text mb-6 leading-tight">
             Fun <span className="text-yellow-400">Animation</span> for Everyone!
           </h2>
           <p className="text-gray-700 text-lg mb-4">

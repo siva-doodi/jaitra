@@ -5,7 +5,7 @@ export default function HeroSection() {
   return (
     <section className="bg-primary-bg w-full min-h-screen flex flex-col md:flex-row items-center justify-center md:justify-between px-6 md:px-16 lg:px-24 ">
       <div className=" pt-20 md:text-left md:w-1/2 flex flex-col  md:order-1">
-        <h1 className="text-6xl sm:text-4xl lg:text-6xl font-bold text-[#b72960] leading-tight">
+        <h1 className="text-6xl sm:text-4xl lg:text-6xl font-bold text-primary-text leading-tight">
           Explore Our
 
           <span className="text-3xl md:text-4xl font-normal text-white block pt-3">
@@ -21,7 +21,7 @@ export default function HeroSection() {
           <Link
             href="/animation"
           >
-            <button className="bg-[#b72960] mt-6 px-6 py-3  text-white rounded-xl shadow-md  transition duration-300">
+            <button className="bg-primary-text mt-6 px-6 py-3  text-white rounded-xl shadow-md  transition duration-300">
               Explore Now 🚀
             </button>
           </Link>

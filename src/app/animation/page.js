@@ -91,7 +91,7 @@ export default function AnimationsPage() {
       <select
         value={selectedLang}
         onChange={(e) => filterChannels(e.target.value)}
-        className="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-[#b72960]"
+        className="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-primary-text"
       >
         <option value="">Select Category</option>
         {categories.map((lang) => (
@@ -104,7 +104,7 @@ export default function AnimationsPage() {
 
     {/* Sidebar for Large Screens */}
     <div className="hidden lg:block sticky top-[120px] w-[26%] bg-gray-100 rounded-[8px] shadow-lg border border-gray-300 pt-6 px-4 h-fit">
-      <h2 className="text-xl font-bold text-[#b72960] mb-2">Categories</h2>
+      <h2 className="text-xl font-bold text-primary-text mb-2">Categories</h2>
       <div className="my-6">
         {categories.map((lang) => (
           <button
@@ -112,7 +112,7 @@ export default function AnimationsPage() {
             onClick={() => filterChannels(lang)}
             className={`w-full mb-2 text-start px-4 py-2 rounded transition duration-200 ${
               selectedLang === lang.toLowerCase()
-                ? "bg-[#FFBCBC] text-[#b72960]"
+                ? "bg-[#FFBCBC] text-primary-text"
                 : "hover:bg-gray-200"
             }`}
           >

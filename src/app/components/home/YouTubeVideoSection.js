@@ -70,7 +70,7 @@ export default function YouTubeVideoSection() {
                 href={video.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-auto inline-block bg-[#b72960] text-white font-medium py-2 px-4 rounded-full hover:bg-red-600 transition duration-300"
+                className="mt-auto inline-block bg-primary-text text-white font-medium py-2 px-4 rounded-full hover:bg-red-600 transition duration-300"
               >
                 Watch Now
               </a>

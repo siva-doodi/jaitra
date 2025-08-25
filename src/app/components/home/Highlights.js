@@ -28,7 +28,7 @@ function HighlightsContent() {
 
       {/* Title */}
       <div className="max-w-7xl mx-auto text-center mb-16 relative z-10">
-        <h2 className="text-3xl md:text-5xl font-extrabold text-[#b72960] mb-4">
+        <h2 className="text-3xl md:text-5xl font-extrabold text-primary-text mb-4">
           ✨ Highlights ✨
         </h2>
         <p className="text-gray-700 text-lg max-w-2xl mx-auto">
@@ -40,10 +40,10 @@ function HighlightsContent() {
       <div className="flex flex-col md:flex-row md:justify-around md:items-start gap-12 relative z-10">
         {/* Card 1 */}
         <div className="flex flex-col items-center text-center transition-transform hover:-translate-y-3 duration-300">
-          <div className="flex items-center justify-center w-24 h-24 bg-[#ffe0e6] rounded-full shadow-2xl mb-6 border-4 border-[#b72960]">
+          <div className="flex items-center justify-center w-24 h-24 bg-[#ffe0e6] rounded-full shadow-2xl mb-6 border-4 border-primary-text">
             <img src="https://img.icons8.com/fluency/48/000000/youtube-play.png" alt="Animations Icon" />
           </div>
-          <h3 className="text-xl md:text-2xl font-bold text-[#b72960] mb-2">
+          <h3 className="text-xl md:text-2xl font-bold text-primary-text mb-2">
             Unique Animations 🎥
           </h3>
           <p className="text-gray-600 text-md px-4">

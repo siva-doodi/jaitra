@@ -48,7 +48,7 @@ export default function StatsSection() {
       <div className="absolute -bottom-20 -right-20 w-56 h-56 bg-pink-400 rounded-full opacity-30 animate-pulse"></div>
 
       <div className="max-w-7xl mx-auto relative z-10 text-center">
-        <h2 className="text-3xl md:text-5xl font-bold text-[#b72960] mb-6">
+        <h2 className="text-3xl md:text-5xl font-bold text-primary-text mb-6">
           Animating Stories, Inspiring Millions
         </h2>
         <p className="text-gray-700 text-md mb-12 max-w-2xl mx-auto">
@@ -64,7 +64,7 @@ export default function StatsSection() {
           ].map((item, idx) => (
             <div
               key={item.label}
-              className="flex flex-col items-center flex-1 px-4 md:border-r-2 border-[#b72960] last:border-none"
+              className="flex flex-col items-center flex-1 px-4 md:border-r-2 border-primary-text last:border-none"
             >
               <div className="flex items-center">
                 <p
