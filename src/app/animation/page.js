@@ -124,27 +124,28 @@ export default function AnimationsPage() {
 
     {/* Grid of Cards */}
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
-      {state.filteredChannels.map((data) => (
-        <a
-          href={data.url1}
-          key={data.id}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex flex-col justify-between items-center bg-white rounded-lg shadow hover:shadow-lg transition duration-300 overflow-hidden"
-        >
-          <div className="w-full">
-            <img
-              src={data.img}
-              alt={data.name}
-              className="w-full h-60 object-cover"
-            />
-          </div>
-          <div className="p-4 text-center bg-gray-100 w-full">
-            <h3 className="text-sm font-semibold truncate">{data.name}</h3>
-          </div>
-        </a>
-      ))}
-    </div>
+  {state.filteredChannels.map((data) => (
+    <a
+      href={data.url1}
+      key={data.id}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex flex-col justify-between items-center bg-white rounded-lg shadow hover:shadow-lg transition duration-300 overflow-hidden"
+    >
+      <div className="w-full h-60 flex justify-center items-center bg-gray-50">
+        <img
+          src={data.img}
+          alt={data.name}
+          className="h-full object-contain"
+        />
+      </div>
+      <div className="p-4 text-center bg-gray-100 w-full">
+        <h3 className="text-sm font-semibold truncate">{data.name}</h3>
+      </div>
+    </a>
+  ))}
+</div>
+
   </div>
 </section>
 

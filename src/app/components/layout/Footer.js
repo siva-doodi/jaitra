@@ -24,7 +24,7 @@ export default function Footer() {
           <h4 className="text-lg font-semibold mb-2">Quick Links</h4>
           <Link href="/" className="hover:underline">Home</Link>
           <Link href="/animation" className="hover:underline">Animation</Link>
-         
+
         </div>
 
         {/* Contact Info */}
@@ -32,8 +32,16 @@ export default function Footer() {
           <h4 className="text-lg font-semibold mb-2">Get in Touch</h4>
           <a href="mailto:admin@Jaitra.com" className="text-black text-sm mb-2 block">admin@Jaitra.com</a>
           <p className="text-sm py-2">
-            37/A, Susheela Sadan, Vengal Rao Nagar, Hyderabad, Telangana 500038
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=37/A,+Susheela+Sadan,+Vengal+Rao+Nagar,+Hyderabad,+Telangana+500038"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="t hover:underline"
+            >
+              37/A, Susheela Sadan, Vengal Rao Nagar, Hyderabad, Telangana 500038
+            </a>
           </p>
+
           <div className="flex gap-4 mt-2">
             <a href="#"><img src="https://img.icons8.com/color/48/facebook-new.png" alt="Facebook" className="w-8 h-8" /></a>
             <a href="#"><img src="https://img.icons8.com/color/48/twitter--v1.png" alt="Twitter" className="w-8 h-8" /></a>

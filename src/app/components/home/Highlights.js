@@ -31,7 +31,7 @@ function HighlightsContent() {
         <h2 className="text-3xl md:text-5xl font-extrabold text-primary-text mb-4">
           ✨ Highlights ✨
         </h2>
-        <p className="text-gray-700 text-lg max-w-2xl mx-auto">
+        <p className="text-[#5E4B56] text-md max-w-xl mx-auto">
           We bring stories to life with joyful animations, a strong community, and magical storytelling that sparks imagination.
         </p>
       </div>
