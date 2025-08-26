@@ -136,7 +136,7 @@ export default function AnimationsPage() {
         <img
           src={data.img}
           alt={data.name}
-          className="h-full object-contain"
+          className="h-full w-full "
         />
       </div>
       <div className="p-4 text-center bg-gray-100 w-full">
