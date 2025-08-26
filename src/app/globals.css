@@ -1,18 +1,14 @@
 @import "tailwindcss";
-
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
   /* siva doodi - Your custom colors */
-  --color-primary-bg: #DCA56C;
+  --color-primary-bg: #FDF8F8;
   --color-secondary-bg: #2C98A0; 
   --color-tertiary-bg: #608BC1;
-
   --color-primary-text: #b72960;
-  --color-secondary-text: #101828;
+  --color-secondary-text: #36454F;
 }
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -33,10 +29,8 @@
     --foreground: #ededed;
   }
 }
-
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-inter), sans-serif;
 }
-
