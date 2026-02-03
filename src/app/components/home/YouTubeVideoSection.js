@@ -66,7 +66,7 @@ export default function YouTubeVideoSection() {
               <div className='flex justify-start'>
                 <button
                   type="submit"
-                  className="pointer flex justify-start gap-2 items-center shadow-md text-xs bg-gray-50 backdrop-blur-md font-medium isolation-auto border-gray-50 
+                  className="cursor-pointer pointer flex justify-start gap-2 items-center shadow-md text-xs bg-gray-50 backdrop-blur-md font-medium isolation-auto border-gray-50 
                     before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 
                     before:rounded-full before:bg-emerald-500 hover:text-primary-text before:-z-10 before:aspect-square 
                     before:hover:scale-150 before:hover:duration-700 relative z-10 px-3 py-1.5 overflow-hidden border rounded-full group"
