@@ -84,7 +84,7 @@ export default function OurStudioPage() {
 
       {/* ================= FACILITIES ================= */}
       <section className="py-16 px-6 md:px-12">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-12">
 
           <div>
             <h3 className="text-2xl font-bold text-primary-text mb-4">
@@ -115,15 +115,7 @@ export default function OurStudioPage() {
               <li>Monitor preview screen</li>
             </ul>
           </div>
-
-        </div>
-      </section>
-
-      {/* ================= SERVICES ================= */}
-      <section className="py-16 px-6 md:px-12 bg-white">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
-
-          <div>
+             <div>
             <h3 className="text-2xl font-bold text-primary-text mb-4">
               Available Services
             </h3>
@@ -138,51 +130,10 @@ export default function OurStudioPage() {
               <li>Green screen recording (if available)</li>
             </ul>
           </div>
-
-          <div>
-            <h3 className="text-2xl font-bold text-primary-text mb-4">
-              Optional Add-On Services (Paid)
-            </h3>
-            <ul className="space-y-2 list-disc pl-5">
-              <li>Camera operator</li>
-              <li>Video editing</li>
-              <li>Thumbnail design</li>
-              <li>YouTube upload assistance</li>
-              <li>Multi-camera recording</li>
-              <li>Live streaming setup</li>
-            </ul>
-          </div>
-
         </div>
       </section>
-
       {/* ================= WHO CAN USE ================= */}
-      <section className="py-16 px-6 md:px-12">
-        <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-primary-text mb-8">
-            Who Can Use This Studio
-          </h2>
-
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-            {[
-              'YouTubers & content creators',
-              'Coaches & educators',
-              'Startups & businesses',
-              'Podcasters',
-              'Interview channels',
-              'Political media teams',
-              'Social media influencers',
-            ].map((item, i) => (
-              <div
-                key={i}
-                className="bg-white shadow rounded-xl p-4 font-medium"
-              >
-                {item}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      
 
       {/* ================= BOOKING SECTION ================= */}
       <section id="booking" className="py-16 px-6 md:px-12 bg-white">
@@ -227,7 +178,7 @@ export default function OurStudioPage() {
         </div>
 
         <p className="flex justify-center items-center gap-2">
-          <MapPin size={18} /> Your Studio Address Here
+          <MapPin size={18} /> 37/A, Susheela Sadan, Vengal Rao Nagar, Hyderabad, Telangana 500038
         </p>
       </section>
     </main>
