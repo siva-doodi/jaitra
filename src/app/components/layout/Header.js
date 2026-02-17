@@ -66,6 +66,9 @@ export default function Header() {
       <Link href="/#highlights" scroll={false} className="cursor-pointer hover:underline hover:text-[#B8325C] font-medium">
         Highlights
       </Link>
+      <Link href="/our-studio" scroll={false} className="cursor-pointer hover:underline hover:text-[#B8325C] font-medium">
+        Our Studio
+      </Link>
     </nav>
 
     <div className="lg:hidden">
